@@ -1,92 +1,92 @@
 {
   "semantics":[
     {
-      "label":"Intro",
-      "description":"The intro text (maximum 100 characters)"
+      "label":"Giới thiệu",
+      "description":"Văn bản giới thiệu (tối đa 100 ký tự)"
     },
     {
-      "label":"Arithmetic type",
+      "label":"Kiểu số học",
       "options":[
         {
-          "label":"Addition"
+          "label":"Cộng"
         },
         {
-          "label":"Subtraction"
+          "label":"Trừ"
         },
         {
-          "label":"Multiplication"
+          "label":"Nhân"
         },
         {
-          "label":"Division"
+          "label":"Chia"
         }
       ]
     },
     {
-      "label":"Max number of questions"
+      "label":"Số lượng tối đa các câu hỏi"
     },
     {
-      "label":"User interface translations",
+      "label":"Bản dịch giao diện người dùng",
       "fields":[
         {
-          "label":"Scoring during quiz",
-          "default":"Score:"
+          "label":"Chấm điểm trong khi làm bài kiểm tra",
+          "default":"Điểm:"
         },
         {
-          "label":"Time",
-          "default":"Time: @time"
+          "label":"Thời gian",
+          "default":"Thời gian: @time"
         },
         {
-          "label":"Result page header",
-          "default":"Finished!"
+          "label":"Tiêu đề trang kết quả",
+          "default":"Đã kết thúc!"
         },
         {
-          "label":"Go label",
-          "default":"GO!"
+          "label":"Đi đến nhãn",
+          "default":"Đi!"
         },
         {
-          "label":"Start button label",
-          "default":"Start"
+          "label":"Nhãn nút bắt đầu",
+          "default":"Bắt đầu"
         },
         {
-          "label":"Retry button label",
-          "default":"Retry"
+          "label":"Nhãn nút thử lại",
+          "default":"Thử lại"
         },
         {
-          "label":"Readspeaker text for correct answer",
-          "default":"Correct"
+          "label":"Văn bản bộ đọc cho câu trả lời đúng",
+          "default":"Đúng"
         },
         {
-          "label":"Readspeaker text for incorrect answer",
-          "default":"Incorrect. Correct answer was :num"
+          "label":"Văn bản bộ đọc cho câu trả lời sai",
+          "default":"Sai. Câu trả lời đúng là :num"
         },
         {
-          "label":"Readspeaker label for the timer",
-          "default":"Duration in hours, minutes and seconds."
+          "label":"Nhãn bộ đọc cho bộ tính giờ",
+          "default":"Thời gian tính bằng giờ, phút, giây."
         },
         {
-          "label":"Readspeaker text for question",
-          "default":"What does :arithmetic equal?"
+          "label":"Văn bản bộ đọc cho câu hỏi",
+          "default":":arithmetic bằng gì?"
         },
         {
-          "label":"Plus operator text",
-          "default":"plus"
+          "label":"Văn bản bộ tính cộng",
+          "default":"cộng"
         },
         {
-          "label":"Subtraction operator text",
-          "default":"minus"
+          "label":"Văn bản bộ tính trừ",
+          "default":"trừ"
         },
         {
-          "label":"Multiplication operator text",
-          "default":"times"
+          "label":"Văn bản bộ tính nhân",
+          "default":"lần"
         },
         {
-          "label":"Division operator text",
-          "default":"divided by"
+          "label":"Văn bản bộ tính chia",
+          "default":"chia với"
         },
         {
-          "label":"Slide number text",
-          "description":"Announces current slide and total number of slides, variables are :num and :total",
-          "default":"Slide :num of :total"
+          "label":"Văn bản số slide",
+          "description":"Thông báo slide hiện tại và tổng số slide, các biến là :num và :total",
+          "default":"Slide :num trong :total"
         }
       ]
     }
